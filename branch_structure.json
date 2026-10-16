@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-92-test-automated-wallet-connect-e2e",
+    "fix/issue-92-test-automated-wallet-connect-e2e-r2",
+    "fix/issue-93-test-lifecycle-affiliate-claim-e2e",
+    "fix/issue-93-test-lifecycle-affiliate-claim-e2e-r2",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-92-test-automated-wallet-connect-e2e": "main",
+    "fix/issue-92-test-automated-wallet-connect-e2e-r2": "fix/issue-92-test-automated-wallet-connect-e2e",
+    "fix/issue-93-test-lifecycle-affiliate-claim-e2e": "main",
+    "fix/issue-93-test-lifecycle-affiliate-claim-e2e-r2": "fix/issue-93-test-lifecycle-affiliate-claim-e2e",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-92-test-automated-wallet-connect-e2e",
+    "fix/issue-93-test-lifecycle-affiliate-claim-e2e",
+    "origin",
+    "fix/issue-92-test-automated-wallet-connect-e2e-r2",
+    "fix/issue-93-test-lifecycle-affiliate-claim-e2e-r2"
+  ]
+}
